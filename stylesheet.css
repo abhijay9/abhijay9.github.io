@@ -1,11 +1,18 @@
 @font-face {
-  font-family: 'Roboto Light';
-  src: url('./font/Roboto-Light.ttf');
+  /* font-family: 'Roboto Light';
+  src: url('./font/Roboto-Light.ttf'); */
+  font-family: 'Roboto Mono Light';
+  src: url('./font/RobotoMono-Light.ttf');
 }
 
+@font-face {
+  font-family: 'Roboto Mono Regular';
+  src: url('./font/RobotoMono-Regular.ttf');
+}
 
 a {
-  color: #008ac1;
+  /* color: #008ac1; */
+  color: #1C6F39;
   text-decoration: none;
 }
 
@@ -22,8 +29,16 @@ tr,
 p,
 a {
   line-height: 150%;
-  font-family: 'Roboto Light';
+  font-family: 'Roboto Mono Light';
   font-size: 14px
+}
+
+a {
+  font-family: 'Roboto Mono Regular';
+}
+
+dt {
+  font-family: 'Roboto Mono Regular';
 }
 
 dd {
@@ -31,21 +46,24 @@ dd {
 }
 
 heading {
-  font-family: 'Roboto Light';
-  font-size: 22px;
-}
-
-papertitle {
-  font-family: 'Roboto Light';
-  font-size: 18px;
-}
-
-name {
-  font-family: 'Roboto Light';
+  /* font-family: 'Roboto Light'; */
+  font-family: 'Roboto Mono Regular';
   font-size: 25px;
 }
 
-.one {
+papertitle {
+  /* font-family: 'Roboto Light'; */
+  font-family: 'Roboto Mono Light';
+  font-size: 20px;
+}
+
+name {
+  /* font-family: 'Roboto Light'; */
+  font-family: 'Roboto Mono Regular';
+  font-size: 30px;
+}
+
+/* .one {
   width: 160px;
   height: 160px;
   position: relative;
@@ -58,7 +76,7 @@ name {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
-}
+} */
 
 .fade {
   transition: opacity .2s ease-in-out;
